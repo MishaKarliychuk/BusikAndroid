@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_avatar"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:id="@+id/tv_passanger_name"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_passanger_phone"
+                    android:layout_marginTop="5dp"
+                    android:textSize="14sp"
+                    android:textColor="#000"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cv_call_to_passanger"
+                    android:layout_width="45dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:paddingLeft="15dp"
+
+                    android:drawableTint="#000"
+
+                    android:drawableStart="@drawable/ic_phone"
+                    android:background="@drawable/bg_btn_reg_log">
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:id="@+id/tv_count_people"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="15sp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:id="@+id/tv_count_laggage"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="92dp"
+                android:id="@+id/cv_accept_passanger"
+                android:layout_height="33dp"
+                android:text="Прийняти"
+                android:background="@drawable/bg_btn_reg_log"
+                android:textSize="14sp"
+                android:textColor="#000">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="92dp"
+                android:id="@+id/cv_cancel_passanger"
+                android:layout_marginLeft="15sp"
+                android:layout_height="33dp"
+                android:text="Відхилити"
+                android:background="@drawable/bg_btn_reg_log"
+                android:textSize="14sp"
+                android:textColor="#000">
+
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="77dp"
+                android:id="@+id/cv_reviews_passanger"
+                android:layout_marginLeft="15sp"
+                android:layout_height="33dp"
+                android:text="Відгуки"
+                android:textSize="14sp"
+                android:background="@drawable/bg_btn_reg_log"
+                android:textColor="#000">
+
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

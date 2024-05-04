@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Driver.Fragments.DriverSettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ll_back"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/arrow_back"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="В особистий кабінет"
+                android:textSize="14sp"
+                android:textColor="#696969"
+                android:layout_marginLeft="15dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Редагування профілю профиля"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+
+        <ImageView
+            android:layout_width="103dp"
+            android:layout_height="103dp"
+            android:src="@drawable/ic_avatar"
+            android:visibility="gone"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/et_fio_settings"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:editable="false"
+            android:textColorHint="#000"
+            android:textColor="#000"
+            android:backgroundTint="#dcdcdc"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_type_btn"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/et_country_settings"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_et_fill">
+
+            <TextView
+                android:id="@+id/tv_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="#000"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/et_city_settings"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="14sp"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_et_fill">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:id="@+id/tv_city"
+                android:textColor="#000"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/et_email_settings"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_et_fill"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:paddingLeft="15dp"
+            android:textColor="#80000000"
+            android:textSize="14sp"
+            android:editable="false"
+            android:layout_marginTop="15dp"
+            android:id="@+id/et_phone_settings"
+            android:background="@drawable/bg_et_fill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Номер можна змінити тільки через підтримку"
+            android:textSize="14sp"
+            android:textColor="#5C5C5C"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:id="@+id/btn_save_settings"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="42dp"
+            android:text="Зберегти"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:background="@drawable/bg_btn_reg_log"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Безпека"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="14sp"
+            android:id="@+id/et_current_pass"
+            android:hint="Текущий пароль"
+            android:visibility="gone"
+            android:paddingLeft="15dp"
+            android:textColor="#80000000"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_type_btn"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/et_new_pass"
+            android:hint="Новий пароль"
+            android:paddingLeft="15dp"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_et_fill"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Повторіть новий пароль"
+            android:paddingLeft="15dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:id="@+id/et_new_pass2"
+            android:textColorHint="#000"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bg_et_fill"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btn_change_pass"
+            android:layout_height="42dp"
+            android:text="Змінити пароль"
+            android:layout_marginBottom="30dp"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:background="@drawable/bg_btn_reg_log"/>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:text="Facebook"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cv_fb"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/bg_btn_reg_log"
+                android:layout_gravity="center"
+                android:text="Привязать"
+                android:textColor="#000">
+
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Google"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cv_google"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/bg_btn_reg_log"
+                android:text="Привязать"
+                android:textColor="#000">
+
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_container"
+    tools:context=".Passanger.Fragments.AchivedFlightsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Архівні рейси"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/rv_buses"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_archived"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tv_archived"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:id="@+id/rv_arhived_my"/>
+
+
+    </LinearLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

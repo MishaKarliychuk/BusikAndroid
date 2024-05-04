@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/drawable/bg_btn_reg_log.xml" value="0.2445" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/drawable/bg_et_fill.xml" value="0.2445" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_driver_main.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_guess_main.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_log.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_main.xml" value="0.3181818181818182" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_passanger_main.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_reg.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_reg_fbactivity.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_reg_google.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/activity_white.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/dialog_send_message.xml" value="0.5331491712707183" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_achived_flights.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_add_review.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_add_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_add_trop_request.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_buses.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_cabinet_passanger.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_driver_details.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_driver_messages.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_driver_settings.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_edit_flight.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_guest_auth.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_guest_driver_details.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_guest_result_search.xml" value="0.52890625" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_guest_seacth.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_guest_trip_detail.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_just_passengers.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_left_review_about_passanger.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_messages_pasenger.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_my_driver_cabinet.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_my_driver_reviews.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_my_driver_trips.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_my_reviews.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_not_auth.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_not_auth_cabinet.xml" value="0.52890625" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_not_auth_messages.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_not_login_all_buses.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_rec_suc.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_result_search.xml" value="0.4837758112094395" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_search.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_search_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_search_v2.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_settings.xml" value="0.4659090909090909" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_show_archive.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_show_my_trip_req.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_show_passangers_to_flight.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_show_passengers_reviews.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_show_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/fragment_trip_detail.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_driver_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_message.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_message_passanger.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_passanger_accepted.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_passanger_request.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_review.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/Busik/app/src/main/res/layout/item_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/bg_btn_reg_log.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/bg_et_fill.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/bg_et_price.xml" value="0.2135" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/bg_message_btn.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/bg_profile_btn.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/bg_type_btn.xml" value="0.2135" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/chb_selector.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/chb_unselected.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/ic_avatar.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/drawable/ic_star.xml" value="0.2845" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/activity_driver_main.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/activity_log.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/activity_passanger_main.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/activity_reg.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_add_trip.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_add_trop_request.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_buses.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_cabinet_passanger.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_driver_details.xml" value="0.5291666666666667" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_driver_messages.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_driver_settings.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_edit_flight.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_messages_pasenger.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_my_driver_cabinet.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_my_driver_reviews.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_my_driver_trips.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_my_reviews.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_rec_suc.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_search.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_search_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_show_passangers_to_flight.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_show_passengers_reviews.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_show_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/fragment_trip_detail.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_driver_trip.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_message.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_passanger.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_passanger_accepted.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_passanger_request.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_review.xml" value="0.55" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/layout/item_trip.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Busik/app/src/main/res/menu/menu_passanger.xml" value="0.55" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.5" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

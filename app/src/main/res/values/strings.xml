@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Busik</string>
+    <string name="forgot_pass"><u>Забули пароль?</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="flightStatus">
+        <item>Завершено</item>
+        <item>Не відбувся</item>
+        <item>В дорозі</item>
+        <item>В очікуванні</item>
+    </string-array>
+
+    <string name="not_auth_messages"><u>Авторизуйтесь</u> щоб переглядати повідомлення</string>
+    <string name="not_auth_cabinet"><u>Авторизуйтесь</u> щоб переглянути особистий кабінет</string>
+    <string name="not_auth_header">Ви увійшли як гість, щоб отримати доступ до всіх функцій необхідно <u>авторизуватися</u></string>
+    <string name="guess_token">5901737c10ede84b39f9e3e32c821bbb90557096</string>
+
+    <string name="facebook_app_id">2102329386608627</string>
+    <string name="fb_login_protocol_scheme">fb2102329386608627</string>
+    <string name="facebook_client_token">f994f2822ac4b42c86d3f5da4f3e0bcb</string>
+    <string name="default_web_client_id">1</string>
+
+
+</resources>

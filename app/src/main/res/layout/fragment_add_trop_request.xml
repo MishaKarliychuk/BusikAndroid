@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_container"
+    android:orientation="vertical"
+    tools:context=".Passanger.Fragments.AddTropRequestFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/ll_back"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/arrow_back"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="До рейсу"
+                    android:textSize="14sp"
+                    android:textColor="#696969"
+                    android:layout_marginLeft="15dp"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Подача заявки на поїздку"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Скільки людей поїде?"
+                android:textSize="14sp"
+                android:textColor="#303030"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="47dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/cv_minus_human"
+                    android:background="@drawable/bg_btn_reg_log"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:text="-">
+
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:id="@+id/tv_humans"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="47dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/cv_plus_human"
+                    android:background="@drawable/bg_btn_reg_log"
+                    android:text="+"
+                    android:textSize="18sp"
+                    android:textColor="#000">
+
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Скільки кг вантажу передасте?"
+                android:textSize="14sp"
+                android:textColor="#303030"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/cv_minus_laggage"
+                    android:layout_width="47dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_btn_reg_log"
+                    android:text="-"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:layout_gravity="center_vertical">
+
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="#000"
+                    android:id="@+id/tv_laggage"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="47dp"
+                    android:id="@+id/cv_plus_laggage"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_height="30dp"
+                    android:background="@drawable/bg_btn_reg_log"
+                    android:text="+"
+                    android:textSize="18sp"
+                    android:textColor="#000">
+
+
+
+                </androidx.appcompat.widget.AppCompatButton>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Перевірте деталі"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:visibility="gone"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_avatar"
+                    android:scaleType="fitXY"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_driver_name"
+                        android:textColor="#000"
+                        android:textSize="14sp"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_star"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:visibility="gone"
+                            android:id="@+id/tv_driver_rating"
+                            android:textColor="#8B8B8B"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="4,0 (320 відгуків)"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:id="@+id/tv_date_depart"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_time_depart"
+                        android:textSize="14sp"
+                        android:textColor="#636363"/>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_time_arrive"
+                        android:layout_marginTop="20dp"
+                        android:textSize="14sp"
+                        android:textColor="#636363"/>
+
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_arrow_down"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:id="@+id/tv_city_depart"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#4D4D4D"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_city_arrive"
+                        android:textSize="14sp"
+                        android:textColor="#4D4D4D"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_predictPrice"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_predictLaggage"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="16sp"
+                android:id="@+id/tv_inRes"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ціна зразкова і може бути змінена перевізником"
+                android:textSize="12sp"
+                android:textColor="#868686"/>
+
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_btn_reg_log"
+                android:text="Подати заявку"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/cv_add"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="46dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
